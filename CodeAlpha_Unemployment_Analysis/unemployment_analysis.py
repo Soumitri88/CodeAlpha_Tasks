@@ -15,3 +15,15 @@ plt.title("Unemployment Rate by State")
 plt.tight_layout()
 plt.savefig("unemployment_rate_by_state.png")
 plt.show()
+#Pie chart for the top 5 regions with the highest average unemployment rate
+region_avg = df.groupby("Region")["Estimated Unemployment Rate (%)"].mean()
+
+plt.figure(figsize=(8,8))
+plt.pie(
+    region_avg.head(5),
+    labels=region_avg.head(5).index,
+    autopct="%1.1f%%"
+)
+plt.title("Top 5 Regions by Average Unemployment Rate")
+plt.savefig("unemployment_pie_chart.png")
+plt.show()
