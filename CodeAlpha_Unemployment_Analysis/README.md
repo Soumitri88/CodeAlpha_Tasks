@@ -54,6 +54,9 @@ python unemployment_analysis.py
 - Visualized unemployment rates using charts and graphs.
 - Identified the impact of COVID-19 on employment levels.
 - Generated insights from unemployment data.
+## Output
+
+[Unemployment Rate by State](unemployment_rate_by_state.png)
 
 ## Author
 
