@@ -2,21 +2,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("Unemployment_Rate_upto_11_2020.csv")
+fig = pd.read_csv("Unemployment_Rate_upto_11_2020.csv")
 
-df.columns = df.columns.str.strip()
+fig.columns = fig.columns.str.strip()
 
-print(df.head())
+print(fig.head())
 
 plt.figure(figsize=(12,6))
-plt.bar(df["Region"], df["Estimated Unemployment Rate (%)"])
+plt.bar(fig["Region"], fig["Estimated Unemployment Rate (%)"])
 plt.xticks(rotation=90)
 plt.title("Unemployment Rate by State")
 plt.tight_layout()
 plt.savefig("unemployment_rate_by_state.png")
 plt.show()
 #Pie chart for the top 5 regions with the highest average unemployment rate
-region_avg = df.groupby("Region")["Estimated Unemployment Rate (%)"].mean()
+region_avg = fig.groupby("Region")["Estimated Unemployment Rate (%)"].mean()
 
 plt.figure(figsize=(8,8))
 plt.pie(
@@ -26,4 +26,19 @@ plt.pie(
 )
 plt.title("Top 5 Regions by Average Unemployment Rate")
 plt.savefig("unemployment_pie_chart.png")
+plt.show()
+
+#Line chart for the unemployment analysis over time.
+fig["Date"] = pd.to_datetime(fig["Date"])
+
+monthly = fig.groupby("Date")["Estimated Unemployment Rate (%)"].mean()
+
+plt.figure(figsize=(12,6))
+plt.plot(monthly.index, monthly.values)
+plt.title("Unemployment Trend Over Time")
+plt.xlabel("Date")
+plt.ylabel("Unemployment Rate (%)")
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.savefig("unemployment_trend.png")
 plt.show()

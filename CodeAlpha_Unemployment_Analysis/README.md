@@ -12,13 +12,24 @@ This Data Science project analyzes unemployment trends using Python and data vis
 - Study the impact of COVID-19 on unemployment
 - Identify important patterns and insights
 
+## Key Insights
+
+- Some states experienced higher unemployment rates than others.
+- Unemployment increased during the COVID-19 period.
+- Regional differences suggest varying economic impacts across India.
+
+## Impact Analysis of Covid-19
+
+- This pandemic has caused a severe impact on the lives of people.
+- The graph and report shows that the unemployment rate has increased during this pandemic.
+- Lockdowns and restrictions affected business, industries and employment opportunities across many regions of India.
+
 ## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 
 ## Dataset
 
@@ -39,12 +50,11 @@ The dataset contains unemployment statistics used to analyze employment trends a
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 ```
 
 ## How to Run
 
-```bash
+```In the terminal:
 python unemployment_analysis.py
 ```
 
