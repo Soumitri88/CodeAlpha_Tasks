@@ -24,6 +24,13 @@ This project helped me understand the complete machine learning workflow, includ
 - Scikit-learn
 
 ---
+## 📂 CodeAlpha(02)_Car_Price_Prediction/
+│
+├── car data.csv
+├── car_price_prediction.py
+├── car_price_prediction.png
+├── requirements.txt
+└── README.md
 
 ## 📂 Dataset
 The dataset contains information about different cars and their selling prices.

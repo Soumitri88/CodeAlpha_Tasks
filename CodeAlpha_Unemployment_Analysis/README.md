@@ -31,6 +31,16 @@ This Data Science project analyzes unemployment trends using Python and data vis
 - NumPy
 - Matplotlib
 
+## 📂 CodeAlpha_Unemployment_Analysis/
+│
+├── Unemployment_Rate_upto_11_2020.csv
+├── unemployment_analysis.py
+├── unemployment_pie_chart.png
+├── unemployment_rate_by_state.png
+├── unemployment_trend.png
+├── requirements.txt
+└── README.md
+
 ## Dataset
 
 The dataset contains unemployment statistics used to analyze employment trends and economic impacts over time.

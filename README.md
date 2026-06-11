@@ -2,11 +2,32 @@
 
 This repository contains the Data Science projects completed as part of the CodeAlpha Internship Program.
 
-## About
+## 📌 About
 
 The projects in this repository demonstrate the application of Data Science and Machine Learning techniques using Python and popular libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
 
-## Completed Tasks
+## Repository Structure 
+CodeAlpha_Tasks/
+│
+├── CodeAlpha_Unemployment_Analysis/
+│   ├── README.md
+│   ├── unemployment_analysis.py
+│   ├── requirements.txt
+│   └── ...
+│
+├── CodeAlpha(02)_Car_Price_Prediction/
+│   ├── README.md
+│   ├── car_price_prediction.py
+│   ├── requirements.txt
+│   └── ...
+│
+└── CodeAlpha(03)_Sales_Prediction/
+    ├── README.md
+    ├── sales_prediction.py
+    ├── requirements.txt
+    └── ...
+
+## ✅ Completed Tasks
 
 ### Task 1: Unemployment Analysis with Python
 
@@ -26,7 +47,7 @@ The projects in this repository demonstrate the application of Data Science and 
 * Applied regression techniques for prediction and business insights.
 * Libraries: Python, Pandas, Scikit-learn, Matplotlib.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * Python
 * Pandas
@@ -35,9 +56,10 @@ The projects in this repository demonstrate the application of Data Science and 
 * Seaborn
 * Scikit-learn
 
-## Author
-
-Soumitri 
+## 👨‍💻 Author
+Soumitri
+> "Completed 3 real-world Data Science projects during this internship,
+>  building skills in data analysis, machine learning, and visualization."
 
 ## Internship
 
