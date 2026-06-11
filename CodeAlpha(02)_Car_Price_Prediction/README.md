@@ -20,7 +20,6 @@ This project helped me understand the complete machine learning workflow, includ
 ## 🛠️ Technologies Used
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Scikit-learn
 
@@ -76,22 +75,33 @@ Used Matplotlib to compare:
 ---
 
 ## 📊 Results
-The machine learning model was able to predict car prices based on the selected features. The evaluation metrics showed the effectiveness of the model in estimating vehicle prices.
+- The machine learning model which uses Linear regression was able to predict car prices based on the selected features. The evaluation metrics showed the effectiveness of the model in estimating vehicle prices.
+
+| Metric | Score |
+|--------|-------|
+|R² Score| 0.86 |
+
+An R² score of 0.86 means the model explains **86% of the variation**
+in car prices, indicating strong predictive performance.
+
+A scatter plot was generated showing predicted prices closely
+following actual values, confirming the model's effectiveness.
+
 
 ---
 
 ## 🚀 How to Run the Project
 
 ### Step 1: Install Required Libraries
-```in terminal:
-pip install pandas numpy matplotlib scikit-learn
+```bash
+pip install pandas matplotlib scikit-learn
 ```
 
 ### Step 2: Download the Dataset
 Download the dataset and place it in the project folder.
 
 ### Step 3: Run the Python Script
-```In terminal:
+```bash
 python car_price_prediction.py
 ```
 
@@ -114,12 +124,15 @@ Through this project, I learned:
 - Data visualization using Matplotlib.
 - Real-world applications of machine learning in price prediction.
 
-## Why Linear Regression
-- The target variable (Selling Price) is continuous, not categorical, so regression made more sense than classification. Linear Regression was a good baseline to start with before trying more complex models.
+## 🤔 Why Linear Regression?
+- The target variable (Selling Price) is continuous, not categorical,so regression made more sense than classification.
+- Linear Regression was a good baseline to start with before trying more complex models.
 
 ---
 
 ## 👨‍💻 Author
 Soumitri
+Internship Project — CodeAlpha Data Science Program
 
-This project was completed as part of a Data Science Internship Program by CodeAlpha.
+> "Built this project to understand the end-to-end ML pipeline,
+>  from raw CSV to a trained model that predicts real-world car prices."
