@@ -114,6 +114,9 @@ Through this project, I learned:
 - Data visualization using Matplotlib.
 - Real-world applications of machine learning in price prediction.
 
+## Why Linear Regression
+- The target variable (Selling Price) is continuous, not categorical, so regression made more sense than classification. Linear Regression was a good baseline to start with before trying more complex models.
+
 ---
 
 ## 👨‍💻 Author
