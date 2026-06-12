@@ -38,3 +38,11 @@ plt.title("Actual vs Predicted Sales")
 plt.savefig("sales_prediction.png")
 
 plt.show()
+
+
+plt.scatter(df["TV"], df["Sales"])
+plt.xlabel("TV Advertising Budget")
+plt.ylabel("Sales")
+plt.title("TV Advertising vs Sales")
+plt.savefig("sales_prediction(TV).png")
+plt.show()
