@@ -22,7 +22,6 @@ The main goal of this project is to build a predictive model that estimates futu
 
 * Python
 * Pandas
-* NumPy
 * Matplotlib
 * Seaborn
 * Scikit-learn

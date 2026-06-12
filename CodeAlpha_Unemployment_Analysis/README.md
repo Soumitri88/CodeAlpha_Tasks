@@ -28,7 +28,6 @@ This Data Science project analyzes unemployment trends using Python and data vis
 
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 
 ## 📂 CodeAlpha_Unemployment_Analysis/
