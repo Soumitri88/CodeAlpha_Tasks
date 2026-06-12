@@ -26,17 +26,30 @@ The main goal of this project is to build a predictive model that estimates futu
 * Matplotlib
 * Seaborn
 * Scikit-learn
+## Insights 
+
+1. No missing values were found in the dataset.
+
+2. TV, Radio, and Newspaper advertising budgets were used as input features.
+
+3. Linear Regression was used to predict sales.
+
+4. The model achieved an R² Score of 0.8994.
+
+5. TV and Radio advertising showed a strong positive relationship with sales.
+
+6. Increasing advertising spend generally increases sales performance.
+
+7. The model can help businesses optimize marketing budgets and forecast future sales.
 
 ## 📂 Project Structure
 
-Sales-Prediction/
-
-├── dataset.csv
-
-├── sales_prediction.py
-
+CodeAlpha(03)_Sales_Prediction
+│
 ├── README.md
-
+├── Advertising.csv
+├── Sales_Price.py
+├── sales_prediction.png
 └── requirements.txt
 
 ## 📊 Workflow and Implementation
