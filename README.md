@@ -51,7 +51,6 @@ CodeAlpha_Tasks/
 
 * Python
 * Pandas
-* NumPy
 * Matplotlib
 * Seaborn
 * Scikit-learn
