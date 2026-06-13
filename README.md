@@ -2,9 +2,23 @@
 
 This repository contains the Data Science projects completed as part of the CodeAlpha Internship Program.
 
+
 ## 📌 About
 
-The projects in this repository demonstrate the application of Data Science and Machine Learning techniques using Python and popular libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+This repository contains three end-to-end Data Science projects completed
+during the **CodeAlpha Data Science Internship**. I am a 2nd year **BCA student
+at Ravenshaw University, Mahanadi Campus**, exploring the field of Data Science
+alongside my academics.
+
+These projects gave me hands-on experience working with real-world datasets —
+covering unemployment trends, car price prediction, and sales forecasting.
+Each project follows the full data pipeline: from **data cleaning and 
+exploration** to **model building and visualization**.
+
+This internship helped me bridge the gap between academic learning and
+practical application, strengthening my skills in Python, Machine Learning,
+and Data Analysis. 
+
 
 ## Repository Structure 
 CodeAlpha_Tasks/
@@ -54,6 +68,9 @@ CodeAlpha_Tasks/
 * Matplotlib
 * Seaborn
 * Scikit-learn
+
+## 📊 Datasets
+All datasets used in this repository are sourced from [Kaggle](https://www.kaggle.com).
 
 ## 👨‍💻 Author
 Soumitri
